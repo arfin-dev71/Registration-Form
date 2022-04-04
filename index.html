@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="text-center text-white bg-primary p-2 rounded">
+        <h1>Registration Form</h1>
+        <p>Create your account. it's free and only takes a minute.</p>
+      </div>
+      <!-- <br> -->
+      <hr />
+      <form action="" class="row g-3">
+        <div class="col-md-6">
+          <label for="FirstName" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="FirstName"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="LastName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="LastName"
+            required
+          />
+        </div>
+        <div class="col-md-8">
+          <label for="emailInfo" class="form-label"
+            >E-mail <span class="text-danger">*</span></label
+          >
+          <input
+            type="email"
+            name="Email"
+            class="form-control"
+            id="emailInfo"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="phoneNumber" class="form-label"
+            >Phone Number <span class="text-danger">*</span></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            name="Number"
+            id="phoneNumber"
+            placeholder="+88 017xxxxxxx8"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <div class="form-check ms-2">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >I accept the terms of Use & Privacy Policy.</label
+          >
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary">Register Now</button>
+        </div>
+      </form>
+    </div>
+    <!-- js  -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
